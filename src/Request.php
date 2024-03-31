@@ -40,8 +40,6 @@ abstract class Request extends \Laravie\Codex\Request implements Filterable
 
     /**
      * Resolve the sanitizer class.
-     *
-     * @return \Billplz\Sanitizer
      */
     protected function sanitizeWith(): Sanitizer
     {

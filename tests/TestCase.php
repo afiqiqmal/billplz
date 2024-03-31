@@ -92,7 +92,7 @@ class TestCase extends PHPUnit
      *
      * @param  \Laravie\Codex\Testing\FakeRequest|null  $faker
      */
-    protected function makeClient(Faker $faker = null): Client
+    protected function makeClient(?Faker $faker = null): Client
     {
         if (\is_null($faker)) {
             $faker = Faker::create();

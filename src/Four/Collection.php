@@ -36,8 +36,6 @@ class Collection extends Request
 
     /**
      * Get mass payment instruction collection resource.
-     *
-     * @return \Billplz\Four\Collection\Payout
      */
     public function payout(): Collection\Payout
     {

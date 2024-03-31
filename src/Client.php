@@ -105,8 +105,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get Collection resource.
-     *
-     * @return \Billplz\Contracts\Collection
      */
     final public function collection(?string $version = null): Contracts\Collection
     {
@@ -115,8 +113,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get Open Collection resource.
-     *
-     * @return \Billplz\Contracts\OpenCollection
      */
     final public function openCollection(?string $version = null): Contracts\OpenCollection
     {
@@ -125,8 +121,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get bill resource.
-     *
-     * @return \Billplz\Contracts\Bill
      */
     final public function bill(?string $version = null): Contracts\Bill
     {
@@ -135,8 +129,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get transaction resource.
-     *
-     * @return \Billplz\Contracts\Bill\Transaction
      */
     final public function transaction(?string $version = null): Contracts\Bill\Transaction
     {
@@ -145,8 +137,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get payout instruction collection resource.
-     *
-     * @return \Billplz\Contracts\Collection\Payout
      */
     final public function payoutCollection(): Contracts\Collection\Payout
     {
@@ -155,8 +145,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get payout instruction resource.
-     *
-     * @return \Billplz\Contracts\Payout
      */
     final public function payout(): Contracts\Payout
     {
@@ -165,8 +153,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get payout instruction resource.
-     *
-     * @return \Billplz\Contracts\PaymentOrder
      */
     final public function paymentOrder(): Contracts\PaymentOrder
     {
@@ -175,8 +161,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get payout instruction collection resource.
-     *
-     * @return \Billplz\Contracts\PaymentOrderCollection
      */
     final public function paymentOrderCollection(): Contracts\PaymentOrderCollection
     {
@@ -185,8 +169,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get bank resource.
-     *
-     * @return \Billplz\Contracts\BankAccount
      */
     final public function bank(?string $version = null): Contracts\BankAccount
     {
@@ -195,8 +177,6 @@ class Client extends \Laravie\Codex\Client
 
     /**
      * Get card resource.
-     *
-     * @return \Billplz\Contracts\Card
      */
     final public function card(): Contracts\Card
     {
