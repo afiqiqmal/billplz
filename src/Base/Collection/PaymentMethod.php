@@ -28,7 +28,7 @@ class PaymentMethod extends Request implements Contract
         foreach ($codes as $code) {
             array_push($payments['payment_methods'], compact('code'));
         }
-        
+
         return $this->send('PUT', "collections/{$collectionId}/payment_methods", [
             'Content-Type' => 'application/json',
         ], $payments);
